@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="./assets/hacker-silhouette.svg" width="500"/>
+<img src="./hacker-silhouette.svg" width="500"/>
 
 <br/>
 
@@ -47,7 +47,7 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 ```diff
 + Hunting bugs & writing exploits
 + Active in small infosec community
-! Currently learning: mobile pentesting & Web3 security
+! Currently learning: mobile pentesting & Web3 
 # Status: caffeinated, online, probably in a terminal
 ```
 
@@ -95,7 +95,7 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 
 <div align="center">
 
-<img src="./assets/matrix-rain.svg" width="100%"/>
+<img src="./matrix-rain.svg" width="100%"/>
 
 <br/>
 
