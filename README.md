@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:00ff9c&height=220&section=header&text=Welcome%20To%20My%20Terminal&fontSize=42&fontColor=00ff9c&animation=fadeIn&fontAlignY=38&desc=Security%20Researcher%20%7C%20Pentester%20%7C%20Bug%20Hunter&descAlignY=58&descSize=18" width="100%"/>
+<img src="./terminal-header.svg" width="100%"/>
 
 <a href="https://github.com/0dayshell">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2000&pause=600&color=00FF9C&center=true&vCenter=true&width=700&lines=root%400dayshell%3A~%23+whoami;0dayshell+-+Security+Researcher;root%400dayshell%3A~%23+id;uid%3D0(root)+gid%3D0(root)+groups%3D0(root);root%400dayshell%3A~%23+cat+motto.txt;%22Breaking+things+to+make+them+safer%22;Access+Granted+%E2%9C%93" alt="Typing SVG" />
@@ -47,7 +47,7 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 ```diff
 + Hunting bugs & writing exploits
 + Active in small infosec community
-! Currently learning: mobile pentesting & Web3 
+! Currently learning: mobile pentesting & Web3 security
 # Status: caffeinated, online, probably in a terminal
 ```
 
@@ -58,6 +58,12 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 <div align="center">
 
 **Offensive Security**
+
+<img src="https://img.shields.io/badge/Web%20Application-FF6633?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<img src="https://img.shields.io/badge/API%20Security-2596CD?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Network-000000?style=for-the-badge&logo=cisco&logoColor=00ff9c"/>
+
+**Weapons**
 
 <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
@@ -78,14 +84,6 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
-**Dev Stack**
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-
-</div>
 
 <br/>
 
