@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="280">
+<defs>
+  <linearGradient id="winGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </linearGradient>
+  
+  <clipPath id="clipL0">
+    <rect x="0" y="-39.1" width="0" height="57.8">
+      <animate attributeName="width"
+        values="0;0;448.8;448.8;0;0"
+        keyTimes="0;0.0;0.2248;0.9932;0.9932;1"
+        dur="7.34s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+  <clipPath id="clipL1">
+    <rect x="0" y="-27.6" width="0" height="40.8">
+      <animate attributeName="width"
+        values="0;0;475.2;475.2;0;0"
+        keyTimes="0;0.2725;0.4973;0.9932;0.9932;1"
+        dur="7.34s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+  <clipPath id="clipL2">
+    <rect x="0" y="-32.2" width="0" height="47.6">
+      <animate attributeName="width"
+        values="0;0;319.2;319.2;0;0"
+        keyTimes="0;0.545;0.7003;0.9932;0.9932;1"
+        dur="7.34s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+</defs>
+
+<rect x="0" y="0" width="1000" height="280" fill="#000000"/>
+<rect x="20" y="10" width="960" height="260" rx="14" fill="url(#winGrad)" stroke="#39ff14" stroke-opacity="0.35" stroke-width="1.5"/>
+<rect x="20" y="10" width="960" height="34" rx="14" fill="#0a0f0c"/>
+<rect x="20" y="30" width="960" height="14" fill="#0a0f0c"/>
+<circle cx="45" cy="27" r="6" fill="#ff5f56"/>
+<circle cx="65" cy="27" r="6" fill="#ffbd2e"/>
+<circle cx="85" cy="27" r="6" fill="#27c93f"/>
+<text x="500.0" y="32" text-anchor="middle" font-family="Consolas, Menlo, Monaco, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="13" fill="#39ff14" opacity="0.7">0dayshell — meterpreter</text>
+
+
+<g transform="translate(40,95)" clip-path="url(#clipL0)">
+  <text x="0" y="0" font-family="Consolas, Menlo, Monaco, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-weight="400" font-size="34" letter-spacing="0.5" fill="#39ff14" text-rendering="optimizeLegibility">$ Welcome to the Shell</text>
+</g>
+<g transform="translate(40,150)" clip-path="url(#clipL1)">
+  <text x="0" y="0" font-family="Consolas, Menlo, Monaco, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-weight="400" font-size="24" letter-spacing="0.5" fill="#39ff14" text-rendering="optimizeLegibility">$ You are greeted by Navaneeth GP</text>
+</g>
+<g transform="translate(40,195)" clip-path="url(#clipL2)">
+  <text x="0" y="0" font-family="Consolas, Menlo, Monaco, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-weight="400" font-size="28" letter-spacing="0.5" fill="#39ff14" text-rendering="optimizeLegibility">$ Hacker and Hunter</text>
+</g>
+
+<rect y="65" width="14" height="39.1" fill="#39ff14">
+  <animate attributeName="x" values="40;488.8;40;515.2;40;359.2;40;40" keyTimes="0;0.2248;0.2725;0.4973;0.545;0.7003;0.9932;1" dur="7.34s" repeatCount="indefinite"/>
+  <animate attributeName="y" values="65;65.0;120.0;120.0;165.0;165.0" keyTimes="0;0.2248;0.2725;0.4973;0.545;1" dur="7.34s" repeatCount="indefinite"/>
+  <animate attributeName="height" values="39.1;39.1;27.6;27.6;32.2;32.2" keyTimes="0;0.2248;0.2725;0.4973;0.545;1" dur="7.34s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+</rect>
+
+</svg>
