@@ -95,7 +95,7 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 
 <div align="center">
 
-<img src="./matrix-rain.svg" width="100%"/>
+<img src="./matrix-rain (1).svg" width="100%"/>
 
 <br/>
 
