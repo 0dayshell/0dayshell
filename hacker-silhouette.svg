@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="320">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="55%" r="70%">
+      <stop offset="0%" stop-color="#001a10"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#baffe0"/>
+      <stop offset="40%" stop-color="#00ff9c"/>
+      <stop offset="100%" stop-color="#00ff9c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hoodGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="500" height="320" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="500" height="320" fill="url(#bgGlow)"/>
+
+    <!-- faint code rain background -->
+    <g font-family="monospace" font-size="12" fill="#00ff9c" opacity="0.18">
+      <text x="20" y="30">01001</text>
+      <text x="80" y="60">1010110</text>
+      <text x="150" y="25">ACCESS</text>
+      <text x="380" y="40">0x7F3A</text>
+      <text x="420" y="80">DENIED</text>
+      <text x="30" y="280">SUDO</text>
+      <text x="440" y="270">root@sh3ll</text>
+      <text x="60" y="300">GRANTED</text>
+      <text x="330" y="300">10110</text>
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- scanlines -->
+    <g opacity="0.08">
+      <rect x="0" y="0" width="500" height="2" fill="#00ff9c"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,320" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- hooded figure -->
+    <g transform="translate(250,180)">
+      <!-- shoulders/cloak -->
+      <path d="M -140 140 Q -150 20 -70 -30 Q 0 -60 70 -30 Q 150 20 140 140 Z" fill="url(#hoodGrad)" stroke="#00ff9c" stroke-opacity="0.25" stroke-width="1.5"/>
+      <!-- hood -->
+      <path d="M -75 -20 Q -80 -110 0 -120 Q 80 -110 75 -20 Q 60 20 0 25 Q -60 20 -75 -20 Z" fill="#050505" stroke="#00ff9c" stroke-opacity="0.35" stroke-width="1.5"/>
+      <!-- inner shadow of face -->
+      <ellipse cx="0" cy="-15" rx="45" ry="55" fill="#000000"/>
+
+      <!-- glowing eyes -->
+      <g>
+        <circle cx="-18" cy="-15" r="10" fill="url(#eyeGlow)">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="18" cy="-15" r="10" fill="url(#eyeGlow)">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-18" cy="-15" r="3" fill="#e8fff5"/>
+        <circle cx="18" cy="-15" r="3" fill="#e8fff5"/>
+      </g>
+    </g>
+
+    <!-- terminal caption -->
+    <g font-family="monospace" font-size="16" fill="#00ff9c">
+      <text x="20" y="300" opacity="0.9">root@0dayshell:~# access_granted
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <rect x="2" y="2" width="496" height="316" rx="8" fill="none" stroke="#00ff9c" stroke-opacity="0.3" stroke-width="2"/>
+  </g>
+</svg>
