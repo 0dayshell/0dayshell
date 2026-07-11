@@ -109,17 +109,6 @@ $ echo "no system is 100% secure, but I'll find out why"
 
 <br/>
 
-## `0x05` contribution graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/0dayshell/0dayshell/output/github-contribution-grid-snake.svg" width="100%"/>
-
-</div>
-
-> This animated snake eats through your contribution graph — see `snake.yml` in the download for the one-time setup (2 minutes).
-
-<br/>
 
 ## `0x06` connect
 
