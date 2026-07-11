@@ -8,10 +8,9 @@
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/213760718-ca064723-1c29-4b82-985c-aadc7f57c090.gif" width="500"/>
+<img src="./assets/hacker-silhouette.svg" width="500"/>
 
 <br/>
-
 
 </div>
 
@@ -96,7 +95,7 @@ I'm **NAVANEETH**, a hacker and security researcher focused on offensive securit
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/229223143-574f6669-d12e-47b4-8d51-f7083e3dc399.gif" width="350"/>
+<img src="./assets/matrix-rain.svg" width="100%"/>
 
 <br/>
 
